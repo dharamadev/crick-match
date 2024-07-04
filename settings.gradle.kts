@@ -1,0 +1,2 @@
+rootProject.name = "crick-match"
+
