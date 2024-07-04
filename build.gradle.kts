@@ -19,3 +19,9 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.withType<Jar> {
+    manifest {
+        attributes["Main-Class"] = "com.crickmatch.MatchSimulator"
+    }
+}
